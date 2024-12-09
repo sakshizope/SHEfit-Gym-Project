@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shefit reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title> Gym Website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">SHE</span>Fit</div>
+
+          <img
+            src="https://img.freepik.com/premium-vector/vector-women-gym-logo_1092023-422.jpg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#trainers">Trainers</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              A place for your fitness goals
+            </h1>
+            <p class="description">
+              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+              TRX And Much More
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">
+              Join us
+            </button>
+            <button class="btn btn__secondary">Our services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">M</span>Fitness
+            </h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+              dolor perferendis repellat ipsam fugiat dolorum possimus, modi ut
+              est saepe tempora earum. Consectetur blanditiis voluptatibus,
+              molestias explicabo tempora quae facilis.
+            </p>
+            <a href="#" class="link-button">Read More →</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0JdsU6gSJwJUA0G4EZeXA_oU_XxbL-mF0Ig&s"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqYFEJbvX0fhIz_WF_2vKGH7NsR8R_FK1a3g&s"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="https://c4.wallpaperflare.com/wallpaper/58/891/653/sports-fitness-brunette-girl-wallpaper-preview.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+              ducimus illum corporis magni voluptas, ex eum dolorum quia
+              officia! Deleniti quia ut.
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://static.vecteezy.com/system/resources/thumbnails/050/611/199/small_2x/a-female-bodybuilder-shows-off-her-muscular-physique-while-posing-in-a-gym-with-a-window-in-the-background-photo.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ratione culpa
+                  </p>
+
+                  <a href="#" class="link-button">Read More →</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://images.unsplash.com/photo-1546749876-2088f8b19e09?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3Jvc3NmaXQlMjBnaXJsfGVufDB8fDB8fHww"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ratione culpa
+                  </p>
+
+                  <a href="#" class="link-button">Read More →</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpT_I1BB2gVc5CWtONPe_2Ih44CbOrIFEHwQ&s"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ratione culpa
+                  </p>
+
+                  <a href="#" class="link-button">Read More →</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Gymnastic</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5aVD2NN1GNp_boc1cINK-4H4614fwT5kQQ&s"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ratione culpa
+                  </p>
+
+                  <a href="#" class="link-button">Read More →</a>
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://c4.wallpaperflare.com/wallpaper/141/118/394/sports-fitness-black-hair-brown-eyes-girl-hd-wallpaper-thumb.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ratione culpa
+                  </p>
+
+                  <a href="#" class="link-button">Read More →</a>
+                </div>
+              </div>
+              <div class="class-card__title">TRX</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="https://contenders.ca/wp-content/uploads/2023/09/sideways-athletic-woman-training-boxing-center-1200x600.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Ratione culpa
+                  </p>
+
+                  <a href="#" class="link-button">Read More →</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this summer get full Benefits for year with 20%
+              discount.
+            </h2>
+            <p class="margin-bottom">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur exercitationem amet quas repellendus esse natus.
+            </p>
+            <button class="btn btn__primary">Become a member</button>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR FITNESS COACHES
+            </h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+              ducimus illum corporis magni voluptas, ex eum dolorum quia
+              officia! Deleniti quia ut.
+            </p>
+          </header>
+
+          <article class="coache-content">
+            <div class="c-card">
+              <img
+                src="https://media.istockphoto.com/id/1305474642/photo/senior-woman-doing-lat-pulldowns-with-trainers-help.jpg?s=612x612&w=0&k=20&c=WqVQCvHNI8FSN_TDMQ0388uKFIXOAN1owj4EcnS41W4="
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              <div class="overlay">
+                <img
+                  src="https://img.icons8.com/?size=100&id=16733&format=png&color=FFFFFF"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=118490&format=png&color=FFFFFF"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=16269&format=png&color=FFFFFF"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">Emily</p>
+                <p class="c-title">Body Building</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjJfOf60_VMB4rh3PVZmt5OU_gJb6iejVF4w&s"
+                alt="coache one"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+
+              <div class="overlay">
+                <img
+                  src="https://img.icons8.com/?size=100&id=16733&format=png&color=FFFFFF"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=118490&format=png&color=FFFFFF"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=16269&format=png&color=FFFFFF"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">Ruby</p>
+                <p class="c-title">Cardio Expert</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="coache three"
+                class="c-card__img"
+                width="550"
+                height="550"
+              />
+              <div class="overlay">
+                <img
+                  src="https://img.icons8.com/?size=100&id=16733&format=png&color=FFFFFF"
+                  alt="whatsapp-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=118490&format=png&color=FFFFFF"
+                  alt="facebook-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=32320&format=png&color=FFFFFF"
+                  alt="instagram-icon"
+                  width="30"
+                  height="30"
+                />
+
+                <img
+                  src="https://img.icons8.com/?size=100&id=16269&format=png&color=FFFFFF"
+                  alt="twitter-icon"
+                  width="30"
+                  height="30"
+                />
+              </div>
+
+              <div class="c-card__content">
+                <p class="c-name">Sophia</p>
+                <p class="c-title">Fitness Coach</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review" id="review">
+        <div class="review-box container" data-aos="fade-up">
+          <h2 class="heading heading--2 underline margin-bottom grid-center">
+            what people say
+          </h2>
+
+          <div class="review-card">
+            <img
+              src="https://images.unsplash.com/photo-1660156049794-7f386c3013f4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Sapiente possimus aperiam
+              </p>
+
+              <div class="name">Prince</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="https://images.unsplash.com/photo-1499557354967-2b2d8910bcca?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Sapiente possimus aperiam
+              </p>
+              <div class="name">Grace</div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+              ></textarea>
+            <button class="btn btn__primary form-flex">Send  </button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">SHE</span>Fit</h2>
+
+          <ul class="contact-data">
+            <li class="location">Hinjewadi, Pune</li>
+            <li class="phone">+00 000 000 00</li>
+            <li class="email">shefit@gmail.com.com</li>
+            <li class="social">
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            nisi!
+          </div>
+          <form class="newsletter__input">
+            <input type="text" class="form" placeholder="example@domine.com" />
+            <img
+              src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          <p class="text">Copyright © by Sakshi Zope</p>
+          <a href="">
+            <img
+              src="https://img.icons8.com/?size=100&id=16318&format=png&color=FFFFFF"
+              alt="github"
+              class="github"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
